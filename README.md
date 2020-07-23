@@ -4,8 +4,8 @@ Convert a confluence space export in XML format to github markdown pages
 ## To export a space from confluence
 1. In confluence, navigate to Space Tools / Content Tools / Export and choose XML format
 2. Download the export zip and unzip
-3. Run generate.sh script
-4. Review generated content under out/wiki
+3. Run "generate.sh path-to.zip" script
+4. Review generated content under out/wiki in the same directory as the zip file
 5. Copy content from out/wiki to your cloned github wiki and add/push
 
 ## Example of export / import commands
